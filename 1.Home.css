@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.img {
+  width: 1150px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.brand-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.brand-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.brand-card img {
+  max-width: 400px;
+  height: auto;
+}
+
+.brand-card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.brand-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.brand-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.content-section {
+  margin: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

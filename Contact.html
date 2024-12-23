@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | CGPR Motors</title>
+    <link rel="stylesheet" href="2.Navigationalbar.css">
+    <link rel="stylesheet" href="3.Contact.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="logo">CONTACTUS</div>
+        <ul>
+            <li><button class="nav-button" onclick="location.href='Home.html'">Home</button></li>
+            <li>
+                <div class="dropdown">
+                    <button class="nav-button">Model</button>
+                    <div class="content">
+                        <a href="supersports.html">SUPPERSPORTS</a>
+                        <a href="Sports.html">SPORT</a>
+                        <a href="Adventure.html">ADVENTURE</a>
+                        <a href="Underbone.html">UNDERBONE</a>
+                    </div>
+                </div>
+            </li>
+            <li><button class="nav-button" onclick="location.href='About.html'">About</button></li>
+            <li><button class="nav-button" onclick="location.href='Contact.html'">Contact</button></li>
+        </ul>
+    </nav>
+</header>
+<main>
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="contact-container">
+      <!-- Left Side: Help Message -->
+      <div class="help-message">
+        <h2>We're here to help you ❤️</h2>
+        <p>Hi! We're located in Calamba, Laguna, Philippines. Feel free to fill up the contact form below to contact us. We are happy to serve you.</p>
+        
+        <!-- Social Media Links -->
+        <div class="social-links">
+          <br>
+          <center>
+        <a href="https://www.facebook.com/"><img src="/CGPRPNG/ICON/FB.png" alt="Facebook" height="40"></a>
+        <a href="https://www.instagram.com/"><img src="/CGPRPNG/ICON/INSTA.png" alt="Instagram" height="40"></a>
+        <a href="https://www.twitter.com/"><img src="/CGPRPNG/ICON/X.png" alt="X" height="40"></a>
+        <a href="https://www.youtube.com/"><img src="/CGPRPNG/ICON/YT.png" alt="YouTube" height="40"></a>
+        </center>
+      </div>
+      </div>
+
+      <!-- Right Side: Contact Form -->
+      <div class="contact">
+        <h2>Contact Form</h2>
+        <div class="form-container">
+          <form action="#" method="post">
+            <!-- Full Name -->
+            <div class="form-group">
+              <label for="fullName">Full Name:</label>
+              <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+              <label for="email">Email Address:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <!-- Office Locations Dropdown -->
+            <div class="form-group">
+              <label for="office">Choose Office Location:</label>
+              <select id="office" name="office" required>
+                <option value="" disabled selected>Select an office</option>
+                <optgroup label="Luzon">
+                  <option value="baguio">Benguet - Baguio</option>
+                  <option value="mabalacat">Pampanga - Mabalacat</option>
+                  <option value="taguig">Metro Manila - Taguig</option>
+                  <option value="calamba">Laguna - Calamba</option>
+                </optgroup>
+                <optgroup label="Visayas">
+                  <option value="cebu">Cebu</option>
+                  <option value="aklan">Aklan</option>
+                </optgroup>
+                <optgroup label="Mindanao">
+                  <option value="davao">Davao</option>
+                  <option value="cagayan-de-oro">Cagayan de Oro</option>
+                </optgroup>
+              </select>
+            </div>
+
+            <!-- Message -->
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" placeholder="Type your message here" rows="5" required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+      
+<footer>
+<p align="center">
+      Copyright ©  2024 CGPRK Motors. All Rights Reserved. 
+  </p>
+</footer>
+</body>
+</html>
